@@ -1,0 +1,33 @@
+.grid {
+    width: 945px;
+    height: 2050px;
+    background-image: url('backgroundv2.png');
+    position: relative; 
+    font-size: 200px;
+    text-align: center;
+}
+
+.doodler {
+    width: 200px;
+    height: 200px;
+    background-image: url('cloudguy.png');
+    position: absolute;
+}
+
+.platform {
+    width: 250px;
+    height: 100px;
+    background-image: url('cloud-platform.png');
+    position: absolute;
+}
+
+.startbutton {
+    width: 100px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+
+}
+
