@@ -22,11 +22,10 @@
 }
 
 .startbutton {
-    width: 100px;
-    height: 150px;
-    background-color: yellow;
+    padding: 15px 32px;
+    color: yellow;
     position: absolute;
-    font-size: 30px;
+    display: inline-block;
     text-align: center;
 
 }
