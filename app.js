@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(rightTimerId)
     }
 
-    window.addEventListener('mousedown', e => {
+    window.addEventListener('touchstart', e => {
         let x = e.offsetX;
         if (x < window.innerWidth / 2) {
             console.log("click left")
