@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(rightTimerId)
     }
 
+
     window.addEventListener('touchstart', e => {
         let x = e.offsetX;
         if (x < window.innerWidth / 2) {
@@ -166,12 +167,12 @@ document.addEventListener('DOMContentLoaded', () => {
         },30)
     }
 
-    function moveStraight() {
-        isGoingRight = false 
-        isGoingLeft = false 
-        clearInterval(rightTimerId)
-        clearInterval(leftTimerId)
-    }
+    //function moveStraight() {
+        //isGoingRight = false 
+        //isGoingLeft = false 
+       // clearInterval(rightTimerId)
+        //clearInterval(leftTimerId)
+    //}
 
     function start() {
         if (!isGameOver) {
